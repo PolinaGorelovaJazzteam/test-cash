@@ -23,12 +23,7 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    }
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } }
   ],
   "generators": {
     "@nx/react": {
@@ -38,14 +33,9 @@
         "linter": "eslint",
         "bundler": "vite"
       },
-      "component": {
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
-        "linter": "eslint"
-      }
+      "component": { "style": "css" },
+      "library": { "style": "css", "linter": "eslint" }
     }
   },
-  "nxCloudAccessToken": ""
+  "nxCloudAccessToken": "OWJlMzA0NzAtM2VhNy00MWJhLWFhMmQtZDAwMjlkOGFmMmYxfHJlYWQtd3JpdGU="
 }
