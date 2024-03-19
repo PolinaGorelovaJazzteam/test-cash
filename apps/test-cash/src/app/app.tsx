@@ -4,7 +4,7 @@ import { TestLib } from '@test-cash/test-lib';
 export function App() {
   return (
     <div>
-    Это просто проект (Lj,fdbv xnj-nj yjdtymrjt)
+    Это просто проект (тест бр)
     <div>
       А это уже библа
       <TestLib/>
